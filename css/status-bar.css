@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   padding: 5px 5px;
+  font-weight: 500;
 }
 .status-bar__column {
   width: 33%;
@@ -14,6 +15,7 @@
 }
 .status-bar__column:nth-child(2) {
   justify-content: center;
+  font-weight: 800;
 }
 .status-bar__column:nth-child(3) {
   justify-content: flex-end;

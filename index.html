@@ -25,7 +25,8 @@
     <header class="welcome-header">
       <h1 class="welcome-header__title">Welcome to KoKoaTalk</h1>
       <p class="welcome-header__text">
-        If you have a KoKoa Account, log in with your email or phone number.
+        If you have a KoKoa Account,<br />
+        log in with your email or phone number.
       </p>
     </header>
     <form id="login-form">
@@ -33,13 +34,25 @@
         class="login-form__email"
         type="text"
         placeholder="Email or phone number"
+        required
       />
       <input
         class="login-form__password"
         type="password"
         placeholder="Password"
+        required
       />
-      <input class="login-form__login-btn" type="submit" value="Log in" />
+      <input
+        class="submit_btn login-form__login-btn"
+        type="submit"
+        value="Log in"
+      />
+      <input
+        class="submit_btn login-form__signup-btn"
+        type="submit"
+        value="Sign Up"
+      />
+
       <a href="#">Find KoKoa Account or Password</a>
     </form>
 
