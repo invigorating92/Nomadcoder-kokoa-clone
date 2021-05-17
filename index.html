@@ -29,18 +29,21 @@
         log in with your email or phone number.
       </p>
     </header>
-    <form id="login-form">
+    <form action="friends.html" method="get" id="login-form">
       <input
         class="login-form__email"
         type="text"
         placeholder="Email or phone number"
         required
+        name="username"
       />
       <input
         class="login-form__password"
         type="password"
         placeholder="Password"
         required
+        minlength="8"
+        name="password"
       />
       <input
         class="submit_btn login-form__login-btn"

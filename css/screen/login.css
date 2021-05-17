@@ -1,0 +1,71 @@
+.welcome-header {
+  margin: 90px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  /* text-align: center; */
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.welcome-header__text {
+  text-align: center;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* 영상에선 margin을 양옆으로 줬음 */
+}
+.login-form__email,
+.login-form__password {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  width: 450px;
+  padding: 20px 0;
+  font-size: 1.2rem;
+  transition: border-color 0.3s ease-in-out;
+}
+.login-form__email:focus,
+.login-form__password:focus {
+  outline: none;
+  border-color: var(--yellow);
+}
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.submit_btn {
+  background-color: whitesmoke;
+  font-size: 1.2rem;
+  width: 450px;
+  padding: 20px 0px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+#login-form input[type="submit"] {
+  background-color: var(--yellow);
+  /* submit_btn에 해도 되지만 pseudo한 번 써보기 위해 */
+}
+
+.login-form__login-btn {
+  margin-top: 40px;
+}
+.login-form__signup-btn {
+  margin-top: 15px;
+}
+#login-form a {
+  text-decoration: none;
+  color: inherit;
+  margin-top: 25px;
+  font-weight: 500;
+  opacity: 0.7;
+}
