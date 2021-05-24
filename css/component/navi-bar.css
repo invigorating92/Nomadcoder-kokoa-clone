@@ -1,0 +1,39 @@
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.nav__a {
+  font-size: 30px;
+  color: #2f363e;
+}
+.nav__li {
+  position: relative;
+}
+.nav__li .comment-count {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  bottom: 14px;
+  left: 20px;
+}
+.ellipsis_RedDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  bottom: 23px;
+  left: 33px;
+}
