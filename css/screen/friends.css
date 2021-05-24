@@ -7,7 +7,7 @@
   justify-content: center;
   align-content: center;
   padding: 15px;
-  margin: 20px 0;
+  margin-top: 20px;
   background-color: rgba(0, 0, 0, 0.05);
   font-weight: 700;
 }
@@ -28,7 +28,7 @@
 
 .screen-channel {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .screen-channel_header {
   display: flex;
@@ -36,9 +36,32 @@
   align-items: center;
   color: #2f363e;
   opacity: 0.6;
-  margin: 15px 0 20px 0;
+  margin: 15px 0 5px 0;
 }
 .screen-channel_header div:nth-of-type(1) {
   font-size: 15px;
   font-weight: 600;
+}
+@keyframes splash {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.splash_screen {
+  background-color: var(--yellow);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  animation: splash 1s ease-in-out forwards;
+  animation-delay: 0.5s;
 }

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to KoKoaTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:45</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <!-- status-bar -->
+    <header class="screen-header">
+      <h1 class="screen-header_title">Find</h1>
+      <div class="screen-header_icons">
+        <span><i class="fas fa-search"></i></span>
+        <span>
+          <a href="setting.html"><i class="fas fa-cog"></i></a>
+          <div></div>
+        </span>
+      </div>
+    </header>
+    <!-- user-component -->
+    <main class="find-screen">
+      <section class="find-screen_icons">
+        <div class="find-screen_icons--content">
+          <div><i class="fas fa-qrcode"></i></div>
+          <h4>QR Code</h4>
+        </div>
+        <div class="find-screen_icons--content">
+            <div><i class="far fa-address-book"></i></div>
+            <h4> Add by<br>Contacts</h4>
+        </div>
+        <div class="find-screen_icons--content">
+            <div><i class="fas fa-user-plus"></i></div>
+            <h4>Add by ID</h4>
+        </div>
+        <div class="find-screen_icons--content">
+            <div><i class="far fa-envelope"></i></i></div>
+            <h4>Invite</h4>
+        </div>
+      </section>
+      <section class="find-screen_recommend">
+        <div class="find-screen_recommend_title">Recommended Friends</div>
+        <div class="find-screen_recommend_content">You have no recommended friends.</div>
+      </section>
+      <section class="find-screen_open-chat">
+        <div class="find-screen_open-chat--header">
+            <div>Open Chat</div>
+            <div>
+                <span>Go to Openchat Home</span>
+                <span><i class="fas fa-chevron-right"></i></span>
+            </div>
+        </div>
+        <div class="find-screen_open-chat--first">
+            <div class="find-screen_open-chat--left">
+                <div>#IU</div>
+                <div>#IU#이지은#Lilac</div>
+                <div>
+                    <span><img src="image/IU2.webp" alt=""></span>
+                    <span>486 members |</span>
+                    <span> Active</span>
+                </div>
+            </div>
+            <div class="find-screen_open-chat--right">
+                <img src="https://pbs.twimg.com/media/ExUElF7VcAMx7jx.jpg" alt="">
+            </div>
+        </div>
+        <div class="find-screen_open-chat--first">
+            <div class="find-screen_open-chat--left">
+                <div>#IU</div>
+                <div>#IU#이지은#Blueming</div>
+                <div>
+                    <span><img src="image/IU2.webp" alt=""></span>
+                    <span>999 members |</span>
+                    <span> Active</span>
+                </div>
+            </div>
+            <div class="find-screen_open-chat--right">
+                <img src="https://mblogthumb-phinf.pstatic.net/MjAxOTExMjlfMjA3/MDAxNTc0OTc2Nzg1MzMy.WJhzcrbtitmAgLJDtqwebCR1hDQbxcQUPvAvdxpk5O8g.vCs9wsVGbokP2KX1LUkr4hXoeEkRZYTzGkSGmFNeZ7og.JPEG.pomon64/iumini5mvkbk_201.jpg?type=w800" alt="">
+            </div>
+        </div>
+      </section>
+      <div class="find_blank"></div>
+    </main>
+    <!-- 여기서 부터 네이게이션 -->
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a class="nav__a" href="friends.html">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="chats.html">
+            <i class="far fa-comment"></i>
+          </a>
+          <div class="comment-count">1</div>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="find.html">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="more.html">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+          <div class="ellipsis_RedDot"></div>
+        </li>
+      </ul>
+    </nav>
+    <div class="No-mobile">Your screen is too big</div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

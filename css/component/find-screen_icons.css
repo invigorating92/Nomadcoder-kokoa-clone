@@ -1,0 +1,39 @@
+.find-screen_icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 20px 0;
+  /* flex-wrap: wrap; */
+  /* align-content: space-between; */
+}
+
+.find-screen_icons i {
+  font-size: 30px;
+  padding: 10px 0;
+}
+.find-screen_icons--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+}
+.find-screen_icons--content h4 {
+  text-align: center;
+}
+
+.find-screen_icons--more {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px 20px 20px 5px;
+}
+
+.more-screen_icons--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 23px;
+}
+
+.more-screen_icons--content_lower {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}

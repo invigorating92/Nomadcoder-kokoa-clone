@@ -1,3 +1,13 @@
+@keyframes upupup {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
 .nav__ul {
   display: flex;
   justify-content: space-between;
@@ -6,7 +16,7 @@
   width: 100%;
   padding: 20px 50px;
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #f9f9fa;
 }
 .nav__a {
   font-size: 30px;
@@ -14,6 +24,7 @@
 }
 .nav__li {
   position: relative;
+  animation: upupup 0.5s ease-in-out;
 }
 .nav__li .comment-count {
   width: 20px;

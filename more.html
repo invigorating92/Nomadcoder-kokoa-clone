@@ -24,61 +24,80 @@
     </div>
     <!-- status-bar -->
     <header class="screen-header">
-      <h1 class="screen-header_title">Friends</h1>
+      <h1 class="screen-header_title">More</h1>
       <div class="screen-header_icons">
         <span><i class="fas fa-search"></i></span>
         <span><i class="fas fa-music"></i></span>
-        <span
-          ><a href="setting.html"><i class="fas fa-cog"></i></a
-        ></span>
+        <span><a href="setting.html"><i class="fas fa-cog"></i></a></span>
       </div>
     </header>
-    <a href="#" class="friends-names_link">
-      <div><i class="fas fa-exclamation-circle"></i></div>
-      <div>Friends'Names Display</div>
-      <div><i class="fas fa-chevron-right"></i></div>
-    </a>
+    <!-- user-component -->
     <main class="friends-screen">
       <section class="user-component">
         <div class="user-component_left">
-          <img class="user-component_img" src="image/IU2.webp" alt="" />
+          <img
+            class="user-component_img user-component_img--more"
+            src="image/IU2.webp"
+            alt=""
+          />
           <div class="user-component_text">
             <h4 class="user-component_name">이지은</h4>
-            <!-- <h5 class="user-component_content">안녕하세요 이지은입니다</h5> -->
+            <h5 class="user-component_content">+82 010-1993-0516</h5>
           </div>
         </div>
-        <div class="user-component_right"></div>
+        <div class="user-component_right user-component_right-chats">
+          <i class="far fa-comment-alt"></i>
+        </div>
       </section>
-      <section class="screen-channel">
-        <div class="screen-channel_header">
-          <div>Channel</div>
-          <div><i class="fas fa-chevron-up"></i></div>
+      <section class="find-screen_icons">
+        <div class="more-screen_icons--content">
+          <div><i class="far fa-calendar-check"></i></div>
+          <h4>Calendar</h4>
         </div>
-        <div class="user-component">
-          <div class="user-component_left">
-            <img
-              class="user-component_img user-component_img-small"
-              src="image/IU2.webp"
-              alt=""
-            />
-            <div class="user-component_text">
-              <h4 class="user-component_name">Channel</h4>
-              <!-- <h5 class="user-component_content">안녕하세요 이지은입니다</h5> -->
-            </div>
+        <div class="more-screen_icons--content">
+            <div><i class="fas fa-archive"></i></i></div>
+            <h4>Talk Drive</h4>
+        </div>
+        <div class="more-screen_icons--content">
+            <div><i class="far fa-smile"></i></div>
+            <h4>Emoticons</h4>
+        </div>
+        <div class="more-screen_icons--content">
+            <div><i class="far fa-comments"></i></div>
+            <h4>Openchat</h4>
+        </div>
+      </section>
+      <section class="find-screen_icons find-screen_icons--more">
+        <div class="more-screen_icons--content more-screen_icons--content_lower">
+          <div><i class="fas fa-paint-roller"></i></div>
+          <h4>Themes</h4>
+        </div>
+        <div class="more-screen_icons--content more-screen_icons--content_lower">
+            <div><i class="fas fa-coins"></i></div>
+            <h4>Account</h4>
+        </div> 
+      </section>
+      <section class="more-screen_suggestion">
+        <div class="more-screen_suggestion--title">Suggestions</div>
+        <div class="more-screen_suggestion--icons">
+          <div class="more-screen_suggestion--content">
+            <div><i class="fas fa-book"></i></div>
+            <h4>Kokoa Story</h4>
           </div>
-          <div class="user-component_right user-component_right-channel">
-            <span>2</span>
-            <i class="fas fa-chevron-right"></i>
-          </div>
+          <div class="more-screen_suggestion--content">
+              <div><i class="fas fa-book-open"></i></div>
+              <h4>Kokoa Story</h4>
+          </div> 
         </div>
       </section>
     </main>
+    
     <!-- 여기서 부터 네이게이션 -->
     <nav class="nav">
       <ul class="nav__ul">
         <li class="nav__li">
           <a class="nav__a" href="friends.html">
-            <i class="fas fa-user"></i>
+            <i class="far fa-user"></i>
           </a>
         </li>
         <li class="nav__li">
@@ -100,8 +119,6 @@
         </li>
       </ul>
     </nav>
-    <div class="splash_screen"><i class="fas fa-comment"></i></div>
-
     <div class="No-mobile">Your screen is too big</div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
